@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.game-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.score {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.flag-container {
+    margin: 20px 0;
+}
+
+#flag-image {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.option-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.option-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.option-button.correct {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.option-button.incorrect {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.next-button {
+    padding: 10px 25px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
